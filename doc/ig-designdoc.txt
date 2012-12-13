@@ -1,0 +1,467 @@
+Hokay.  NEW game.  Imperium Gate.  MOO-ish star empire.  And the guiding
+principle is KEEP IT SIMPLE, STUPID!!!
+
+I have a good basis though.  Now...
+
+SHIP DESIGN
+*Overview
+Space-based.  Maybe with some limitation to how much of a certain type of
+stuff you can load it down with, a la MOO1 or Pax Imperia.
+The big weakness with only having slots is that miniaturization is no longer
+an issue except in terms of cost.  So, we have it space-based.  This also lets
+us manage weapons and such in stacks.
+
+*Specifics
+Okay.  Ships have warp engines, shields, scanners, armor, jammers, combat
+drives, weapons, and specials.  (Defences?  Point-defence?  Fighter bays?).
+They can only have ONE warp or combat drive or armor type, but can have pretty
+much any number of anything else.  
+A ship has several properties: Class, size (how much stuff you can fit in it),
+mass, thrust, speed (mass/thrust), warp speed, HP, shields, ECM factor,
+scanner factor, short-range and long-range accuracy modifiers, as well as
+whatever weapons and special things it has.
+Ship classes: corvette, destroyer, cruiser, battlecruiser, battleship,
+dreadnought, megalith.
+System defense ships???
+
+SPACE COMBAT
+*Overview
+A Stars! Supernova type system, with realistic distances and physics and so on
+would be very cool.  A MOO3/Pax Imperia type system, with generic RTS-type
+combat, would be pretty good.  A MOO1/SE4 type system with turn-based strategy
+would be not too bad.
+You divvy your ships up into fleets with different componants, sorta like
+MOO3.  However, there are no different types of fleets, just sorta one
+all-expanding class.  You do set your ships into different "rings" or
+task-groups, such as assault or planet-attack or picket, but there's nothing
+to stop you from having 50,000 pickets and one assault cruiser.  Fleets adjust
+size and designation depending on what kind of ships you put into them.
+Fleets and ships are mutable; you can add and remove ships from fleets, and
+you can upgrade ships to newer models.
+Is there a "default" fleet of only one ship?  Then all operations are
+merging/moving fleets...
+Planetary defences are grouped into two types: Ground defences, which are
+defensive in nature, mostly shooting down bombs, troop-transports, etc, and
+orbital defences, which are offensive satellites that generally shoot at
+actual ships.  They are either automatically set to a good mix of weapons
+(sorta like MOO1 or MOO2 or Pax Imperia), or you can specify certain designs
+and proportions and have various types of fields.  Probably the former.
+Beam, projectile, missile, bomb: the traditional Pax Imperia weapon-spread.
+Point-defence might be a seperate field.  Bioweapons.  Torpedoes.  Fighters.
+Multi-role weapons.  Energy cannons.  Fighters.
+Shields are MOO2-ish; absorb a % of damage up to a limit.
+Jammers and targetters tend to stack for fleets.  As in, one ship benefits
+from all the other ship's scanners and jammers.  This effect is NOT LINEAR
+though.  Probably more like the ship's base level + (sum of bonuses/(number of
+ships * 2)).  So you can't just have one ship with uber-uber scanners and the
+rest of your fleet with none.
+Should weapons have different mount sizes, a la SE4 and MOO3?  Not as much as
+MOO3.
+Ships do NOT repair instantly after each turn!  Except that's hard.
+They CAN repair themselves, though.
+
+Combat is TURN-BASED.  It's simpler, and more strategic instead of just
+trusting the AI and charging.
+I would LIKE the arena of combat to be system-wide and incorperate like, everything, but that might be too hard.
+
+
+*Fleets
+Fleets are broken down into three rings, a la MOO3.  Core ships, escort ships, and picket ships.
+Core ships --The main grunt of the force, they get in and shoot things.
+Escort ships --The secondary power, typically a bit faster and more
+maneuverable, though they still are significantly powerful they tend to be more defensive in role.
+Picket ships --Also do a little bit of point-defence work, but mainly just get out there and snoop around.  Fast, powerful ECM and scanners and stealth, weak shields and weapons.
+
+Fleets are always based around a hyperspace carrier that actually moves your
+ships around interstellar space.  Carriers are a limited resource that you
+have to build and manage.  Ships (tentatively) cannot move around without
+carriers.  That's the reason the Imperium Gate is so awesome.  Carriers are
+not designed; they are monolithic, generally using a pretty fixed design.
+
+Carriers generally do not take part in battle.  Only in the state of total and
+utter war will you attack enemy carriers, since they're such a big investment.
+Killing carriers generally makes people hate you, unless they're also at total
+war with the same person.
+
+Ships are not restricted by role.  You can put any ship in any role.  However, depending on what role/ring of the fleet you put it in, it'll get different bonuses.  Pickets will have bonuses to sensor range and ECM, core ships will have bonuses to weapons but penalties to maneuverability, and so on.
+
+Okay.  You have fleet designs, which say that for fleet type X, you want 60% of the fleet to be ship class A in the core ring, 20% to be ship class B in the escort ring, and so on.  These are percentages, so fleets can scale up to ANY size.  If you have two fleets of the same type in the same place, they can merge (WILL merge automatically unless you tell 'em not to) into one big fleet of the same type.  You can also split smaller fleets off a big one in the same way.  Fleets are defined by ship size, so if you have free ships and you create a fleet of, say, 200 ships, it'll automatically pick the right proportions of ships.
+Now, you can have fleets with just a single ship-type in 'em.  This way they'll absorb any random loose single ships left over, and they'll work exactly like ships in MOO1.  This makes life very simple for moving fleets around and such.
+
+Core ring bonuses:   
+Escort ring bonuses: 
+Picket ring bonuses: 
+
+You can have fleets that do not fulfill their full complement, or have excess ships.  Call these irregular fleets.  So if you have fleet type A, and need to add other ships to it, you can just say stick 200 extra cruisers to it.  However, it'll still be fleet type A, and behave exactly like it; it'll just have some extra ships glommed onto it.  You can drop these off wherever you want.
+
+Fleet footprint in battle depends on how many ships are in the fleet.  Maybe.
+
+How large you can make a fleet depends on your communication tech.  You can
+make a fleet bigger than the max size, but it becomes less maneuverable, has
+worse stealth/ECM/defense, and more overkill against single ships in the enemy
+fleet.  
+Communication tech would be something like "Radio communication: Max 30 ships
+per fleet before penalties kick in", or "Laser communication: max 50 ships",
+etc.  Communication systems are a definate module on a ship, like ECM or
+battle computers, that have to be upgraded in each new ship design.  If you
+mix ships with different communication capacities, it's averaged.  So if you
+have a fleet that's half comm-50 ships and half comm-100 ships, the maximum
+number of ships that can be in that fleet without penalties is 75.
+There are also special modules you can develop (command center, command center
+more, etc) that increase this limit by a certain percentage.  Only one of them
+can be active in a fleet at a time, but you can have any number of backups.
+However, they tend to be big and expensive.
+
+*Fleet Tactics
+Set policy for things like target selection, focus on defence vs. offence,
+concentration of fire, picket roamingness, fleet formation, etc...
+Maybe.  KISS.
+
+*Defences
+OKAY.  You have planet defenses, orbital defenses, and in-system ships.  You get to design (one?  A couple types of?) each defense.  You tell a system to build "defenses", and it's production is split evenly between the three.  OR maybe you have an empire-wide slider set to change the proportions of the defenses.  Planetary defenses probably focus on shooting down incoming bombs/dropships/whatever, where orbitals and system ships are more offensive in nature.  Each might have limited types of weapons...
+
+*Fleet Support Ships
+MAYBE we should have EVE-like support ships and command ships that could add
+bonuses for an entire fleet.  They'd be expensive and not too good at shooting
+stuff, but overall probably worth having.  The tech would be hard to find, in
+all likelihood.  Maybe only by random event?
+
+
+SPACE TOPOGRAPHY
+*Overview
+We're not interested in any unit smaller than a solar system, ie individual
+planets or moons.  Systems have fertility, capacity, and productivity.  'S
+about it.  
+There are no specific minerals, no difference in habitability and atmosphere
+and so on.  A really habitable system will have planets that you can walk on
+without a space-suit, a really unhabitable system will have few places to live
+and lotsa blasting radiation.  But what about racial differences then...?
+Stars! or MOO3 style, perhaps?
+You have warp drives that can go more or less anywhere; no artificial
+bottlenecks via wormholes or starlanes.  Wormholes CAN exist to provide a
+tactical screwball, sorta like MOO2.  Later it might be an idea to split
+things up into a wormhole tech-tree and a warp tech-tree, but I'm not gonna
+worry about that right now.  
+Fuel merely limits how far ships can travel from your planets, like MOO1 or
+Pax Imperia.
+Different stars tend to have different characteristics.  There are
+technologies that will increase your ability to utilize various kinds of
+systems.  There are nebulae, a la MOO1.
+Can you find planets and get general info about nearby stars without sending
+scout ships?
+
+SYSTEM INFRASTRUCTURE
+*Overview
+It's rather like Stars!.  A relatively small assortment of enhancements to
+build, infinate queue and good auto-queue options.  Things don't need a lot of
+micro-management.
+The smallest population increment is 1000 or 10,000 or 1,000,000 people...
+heavily populated systems can have populations approaching the trillions.
+Factories, population expansion, ground/space defences, ships, specials (such
+as stargates), terraforming.
+Mines, industry, energy?, research?, defences, shipyards?, 
+DEA's!  It's actually not a bad idea for administering a system...
+There are cities, there are factories, and there are defences.  Cities
+increase population max.
+
+New ideas:
+Smallest population increment is 1 million or 1 billion people?  Maybe.  Probably a million.
+Habitability and such: the current system is just flat radiation and gravity for the star.  This sucks.
+Paul had a better idea; there are four seperate regions in a system, close-to-star, inner, outer, and way-out-there.  Each of these regions has their own habitability ratings.  Different races use different parts of the system.  Then if you get better tech that lets you expand that rating, it just goes poof and the system capacity suddenly gets bigger.
+Different zones have different benefits?  Like, close-in is better for industry, further out has more space and lower maintainance costs?  Hmmm.
+
+Minerals and such: Perhaps each region just has a straight percentage modifier to your factory output.  Yeah.
+
+City = colony.  Makes more sense that way.
+
+As you build more colonies, it takes a greater and greater amount of money to
+MAINTAIN...  Yeah.
+
+System management?
+MOO-ish slider bars.  So oldschool!  Ship, budget, industry, infrastructure, defense.  Industry needs maintainance, which includes waste cleanup?  Ecology is maintainance of colonies?
+
+Terraforming is a percentage bonus to the flat habitability, instead of MOO1's absolute bonus?
+
+Lots of small colonies, or a few big colonies?  I've been leaning toward the latter, but the former might make a bigger difference between planets you've had for a long time and planets you haven't.  Maybe a few big colonies, but the more colonies you have the more expensive they get?
+
+Artifacts and stuff like that!
+
+On the starmap, you can put a little bar-chart next to each system showing, very concisely, it's attributes.  There might also be Stars!-like overlays.
+
+You will have two seperate tabs for building ships.  One builds single ships of a given type, and one will build all the ships for a given type of fleet.
+
+ECONOMY
+*Overview
+It's fairly simple.  KISS.  Your costs from ship maintainance, defence,
+spying, etc are totalled up and subtracted from the gross product of the
+empire.  You look at how big a percentage that is, and subtract that from the
+production of each planet.  You can build up a surplus if you want.  Basically
+lifted entirely from MOO1.  It's a good system.  Very unobtrusive. There are
+no specific "resources" like Stars! or SE4, just generic bling-bling.  All
+systems are assumed to be able to feed themselves, as well. I mean, who's
+gonna ship GRAIN over interstellar distances??
+Okay.  Forget all that.  The way it works is thus:
+You total up production from all planets, from people and factories, and add
+trade to it.  That's income.
+You total up maintainance costs for fleets, defences, spies, counterspies,
+taxes and economy overdrive.  That's outgo.
+You do outgo / income = percentage of each planet's production that dissapears
+off in taxes.  Racial traits then increase or decrease this percentage.
+
+Or maybe Pax-Imperia-ish?  Percentage of each planet, imperial reserve, CP subsidy.
+
+*Secondary idea:
+This doesn't have to be in the base system, but would be an interesting
+addition: Each industrial, highly-developed, rich planet would have a
+"culture" influence radiating out into space around it.  Planets closer to it
+would be more civilized and thus have their culture levels enhanced slightly,
+which provides better growth and industry bonuses, and generally makes the
+planet better.  So a colony created right near three big happy industrial
+planets would get all the TV channels, industrial goods, and fancy food, and
+thus grow and become modern very quickly.  Whereas a planet situated waaay out
+in the boondocks would have two TV channels, pre-fab housing, and local grubs
+to eat, and thus only attract the hardiest citizens and grow rather slowly and
+operate less efficiently.  It'd be an interesting influence.  Once a planet
+reaches a certain threshold, it starts producing it's own culture-field, which
+helps other nearby planets.  The maximum culture depends on how good the
+planet itself can get; you'll probably only have a few large centers per
+region.
+Now, once you have that interesting influence, you can immediately think of
+interesting ways to manipulate it.  Being near a friendly race could let you
+bonus off some of their culture, or much more if you have lots of trading and
+culture exchange with them.  An enemy race might have the opposite effect.
+You could have various techs or race traits that affect how fast culture
+grows, how fast planets reach the threshold, how much it affects your
+civilization as a whole.  You could create incentives that would increase a
+planet's culture in exchange for money.  There could be random events (such as
+gold rushes) that momentarily inflate a planet's culture, giving the entire
+region an economic boost.
+
+SPECIES DESIGN
+*ALTERNATIVE: Moo2/3 style, with various areas, and pluses/minuses in each of
+'em.
+*Overview
+Species design is merely the art of trading advantages for disadvantages.
+Now, in some games like Stars!, these things are the MOST distinct aspect of a
+race, and dramatically affect how the game is played.  In others, like SE4,
+it's a more subtle influence.  I still rather like the Stars!-ish idea of each
+race having a primary trait, and an assortment of adjustments upon it.  
+Can you have various effects like government and corruptability that can
+affect gameplay?
+Primary traits: Space combat, ground combat, research, building,
+environmental/terraformer, expansion, wanderer, spy, diplomat, hardy
+(silicoid), defensive, JOAT, stealth, bioweaponist.
+High grav = higher battle speed?
+Secondary traits (positive and negative variants):
+Engines, weapons, terraforming, production, population growth, research,
+trustworthy, luck, maintainance, construction, sensors, 
+
+*Species classes
+Species classes are MAIN attributes that can drastically change how you play
+the game: they can have special ship designs, attributes, technologies,
+starting relations, etc.
+Starfighters
++Better space combat
++Better ship building
++Better space weapons
+-Worse ground combat
+-Higher maintainance
+Hulking Brutes
++Better ground combat
++Better construction
+-Lower habitability
+-Higher maintainance?
+Geeks
++Better all-around research
++Better habitability
+-Worse construction
+-Lower growth
+Mad Architects
++Better construction
++Lower maintainance
+-Better habitability
+-Lower growth
+-Worse terraforming/environment
+Eco Nuts
++Best terraforming/environment
++Resistant to bioweapons
+-Worse production
+-Lower growth
+Expansionists
++Fast growth
++Better propulsion
++Higher habitability
+-Lower diplomacy
+-Worse production
+-Worse maintainance
+Wanderers
++Better sensors
++Better production
++Better manuverability
+-Worse growth
+-Worse habitability
+Diplomats
++Better diplomacy (duh)
++Slightly better research
+-Worse ground combat
+-Slightly worse spying
+Sneaks
++Better spying
++Better ship stealth
+-Worse diplomacy
+-Slightly worse ship manuverability
+Missile Nuts?
+Biologists?
+Minelayers?
+Wormhole specialists?
+Hippies?
+
+*Species attributes
+These are small, one-shot specilizations.  They can be good, bad, or both.
++Ancient (know whole galaxy map)
++Lucky Bastards (Fewer bad random events)
++Rich Bastards (Higher population production)
++Perceptive (Higher scanner and battle accuracy)
++Fuzzy and cute (Better initial relations)
++Famous (Attract more/better heros)
++Comedians (Better diplomacy)
++Self-sustaining (Better range, less maintainance, more habitability)
+=Speed freaks (Faster engines, more maintainance)
+=Generalists (Lower research points, more techs in general)
+=Growth spurt (Higher population growth, lower production)
+=Fervently religous (Higher production, lower research)
+=Gung-ho (Better offence, worse defence)
+=New Jersey Drivers (Slower engines, less maintainance, slightly lower
+diplomacy)
+=Social (Start close to other races)
+=Isolationist (Start far from other races)
+=Organized (Better production, worse research) ???
+=Discordian (Worse production, better research) ???
+-Democratic (Periodic slowdown in production)
+-Poor Bastards (Lower population production)
+-Unlucky Bastards (Fewer good random events)
+-Short-sighted (Lower scanner range and battle accuracy)
+-Hideous (Worse initial relation)
+-Anonymous (Attract fewer/worse heros)
+-Punsters (Worse diplomacy with everyone but punsters; great with punsters)
+-Hedonist (Higher maintainance/worse range, worse habitability)
+
+*Hmm.  Maybe break it up a bit?  Physical/mental/spiritual?  It's a good mix,
+but spiritual may be a stretch.  Paul's race group, evolutionary modifier,
+homeworld?  Hmmm....   physical, mental, evolutionary?  That might work.
+Physical: Brute, Wimp, Average, Sneak, Phage, Rabbit, Avian, Subterranean
+Mental: Geek, Eco-Nut, Tactician, Mad Architect, Nomad, Diplomat, Hippy,
+Starfighter, Zealot
+Evolutionary: Predator, Prey, Transdimensional, Scavanger, Parasite, Symbiote, JOAT, Hive
+Social: Astronomers, Lucky Bastard, Rich Bastard, Perceptive, Fuzzy and Cute, Famous, Comedians, Self-sustaining, Speed Freaks, Generalists, Growth Spurt, Fervently Religious, Gung-ho, New Jersey Drivers, Social, Isolationist, Organized, Discordian, Democratic, Poor Bastards, Unlucky Bastards, Short-sighted, Hideous, Anonymous, Punsters, Hedonist, Sneaky Gits, Blatant Fools,
+***: Physical: Aquatic?
+Social attributes are a series of sliders instead of absolutes?  Hmm...
+Gravity tolerance?  Different environments (asteroids, gas giants, terrestrial worlds, comets)?  Space aptitude, nomadiness, 
+
+Several different areas, and you can choose to be excellent in one, very good in one, decent in one, and bad in one.  Kinda like Werewolf.
+
+Slider bars!  You start out with say, 100 race points.  There are several categories, say Mental and Physical, Social, whatever.  You distribute your race points between these areas.
+Then, within each of these areas, there are various abilities/buffs that you can buy.  Say, Physical would have better reproduction, better ground combat, better environmental tolerance, and so on.  Depending on how many points you put into that category, you have points to put into those more specific abilities.  You can also have one-shot special abilities that'll cost points
+
+
+
+
+TECHNOLOGY
+*Overview
+We start with ONE tech tree, somewhat randomized a la MOO1.  Eventually,
+depending on how elaborate we get, we might end up with a rather more complex
+system.  I think research shall be drawn out of the imperial economy, like in
+Stars!, instead of an influence of each planet like MOO1.
+Possible different tech areas: Computers, Weapons, Energy, Construction,
+Propulsion, Biotech, Materials, Mathematics, Physics, Force Fields, Space Real
+tech areas: Energy, propulsion, biotech, construction, electronics,
+mathematics.
+Are techs single-field only, like MOO1, or multiple-field, like Stars?  They
+ARE tech-based and not level-based, like MOO1 vs Stars.  Hmm, single-field for
+now.  KISS.
+Electronics, Energy, Construction, Propulsion, biotech, mathematics/physics
+
+DIPLOMACY
+*Overview
+Erm, fairly MOO1-ish.  There are races, they like or dislike each other to a
+certain extent based on how much they have in common(?).  Positive actions
+like giving them money/tech, trading tech, setting up trade agreements,
+helping against an enemy, improve relations.  Negative actions like moving
+fleets through their space (if not allied), allying with enemies, attacking
+them, looking at them funny, hurt relations.
+Spying, now.  You can sabotage ships/systems, you can steal tech or maps or
+other info, you can do counter-espionage, you can try to assassinate a leader
+or minister/hero, you can encourage piracy and other nasty things.  Fun stuff.
+Are spies "characters", sorta?  IE does each spy have unique statistics in
+terms of skill, loyalty, etc?  Probably not; it's annoying.
+Leader personalities, a la Civ/MOO1/MOM?  Perhaps.  Basically just adds
+weights to the AI actions.
+
+
+RANDOM EVENTS
+Fame?
+
+Mystery traders!
+Comets
+Mineral strikes
+Space amoebas, random hegemonizing swarms, Avatar Terminus, the Beast,
+Tyrranids, Orks, 
+("AT has been spotted moving into the galaxy. Everybody was recorded saying
+"OH SHIT" simultaneously")
+Pirates, derelects, raiders, chaos storms
+Lost colonists being rediscovered
+Wormholes
+Pirates.  Mercenaries.  Knights-errant.  Privateers.  Jedi.  Gangsters.  BOFH
+sysadmins going berzerk.  Accidental equipment combustion.  Sudden AI
+awakenings.
+
+That last one sounds fun, there are a lot of things AI's could do.
+It could fuck you up hard, do something nice and vanish, make one of your
+planets rebel, hang around for a hundred turns or so making you uber...  It
+could make some of your fleets rebel, or hang around making life hell for you
+for a while, it could take over other's fleets too...
+
+
+MISC
+Have a research speed multiplier
+*Overview
+Should people become unhappy?  Nah.
+Need various random events.  Space amoebae, comets, mineral strikes,
+derelicts, raiding pirates, etc.
+I still like the MOO2-ish idea of famous heros/commanders/ministers.  Maybe
+they can have special ships/artefacts/whatever?
+Conquored populations?  Nah, not right now.  Magnate civilizations would be
+cool though.
+Ships and fleets gain experience?  Morale?  Not at the moment.  Experience
+should be an issue later, though...
+Interstellar mines, a la Stars?  Nah.
+Interstellar cruise missiles!  Muahahaha!
+Pirates.  Mercenaries.  Knights-errant.  Privateers.  Jedi.  Gangsters.  BOFH
+sysadmins going berzerk.  Accidental equipment combustion.  Sudden AI
+awakenings.
+ --Make (optional) funny (adlib-type?) news columns for all these things.
+ Think SimCity 2000
+Psionic races?
+Artifacts!  Derelicts!  Comet stations, wandering interstellar distances?
+Stealth armor?  Scattering sensors?  MOO1-ish Improved or Advanced sensors?
+Stealth should be Stars-ish...
+More or less hardwire it for 1024x768.  KISS!
+Fame, a la MOM?
+Galactic senate?  Nah...
+Needs some gimmick, a la Orion.  Heh, that's easy: The Imperium Gate.  A big
+honkin' stargate; you can go from it to any planet you control in one turn.
+You know how in MOO1 The Tech is death rays?  Here it's stargates. 
+
+Autobuild for System Defense Squadrons? Orbital defenses? Or are defenses all
+surface-based, like traditional MOO I, missile bases, etc? For variation, make
+a race with beam bases, and a race with asteroid bases. Remember in MOO I
+there'd be maps with asteroids every so often? Well, this one race would come
+with ANGRY ROCKS.
+
+Heh, have semi-random, frivolous information on various planets mixed in with
+the various real statistics.  Things like number of TV channels per capita.
+Things that you might find in a real census, but are rather silly.
+
+There needs to be an error message somewhere that says "You bastard!"
+
+Allow planets to be converted into world-ships.

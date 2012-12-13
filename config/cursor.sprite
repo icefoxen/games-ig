@@ -1,0 +1,18 @@
+imgFile: cursor.png
+frameW : 16
+frameH : 16
+animDelay: 200
+anims:
+   normal:
+      -
+         - 0
+         - 0 
+      -
+         - 1
+         - 0
+      -
+         - 2
+         - 0 
+      -
+         - 1
+         - 0

@@ -1,0 +1,145 @@
+There are three basic types of weapons.  Direct-fire, missiles, and parasites.
+There are several sorta-indistinct subtypes for each.  In direct-fire weapons, there are beams and projectiles, which differ mainly in damage variance, range, and damage dropoff with range.  They all hit instantly, have unlimited ammo, and work basically the same way.
+
+Missiles have missiles and torpedoes.  Torpedoes are big, heavy, tough, slow, inaccurate against moving targets, and do massive amounts of damage.  Missiles are really just missiles.  Both can be shot down by point-defence weapons, but torps could have the ability to take several hits.
+
+Parasites: Roughly akin in size to larger missile launchers, Parasite launchers fire unmanned drones combat vehicles. They are vaguely customizable, and come in a few different roles, and have a set "turn" limit that they can operate before returning to their carrier. Interceptor parasites have extended range fuel supplies and a light beam weapon for knocking out other parasites and missiles. Standard parasites pack a light beam weapon and a few turns of light missiles that don't do terribly huge amounts of damage but get bonuses to penetrate shields. Bombers have more light missiles than standard parasites but don't have the beam weapon.
+
+
+
+Direct fire weapons can cause a variety of special effects, depending on the weapons.  These are built-in like MOO1, NOT options like MOO2.
+
+Normal/Heavy	Heavy weapons have longer range and do more damage, but can't be used as point defense
+Autofire	Fires multiple shots at a time
+Burst		Small chance of doing big damage, critical-hit style
+Shield Pen.	Halves shield effectiveness
+Concussion	Jostles/moves/spins the target (accuracy penalty for it?)
+ER		Greater than average range
+Enveloping	Greater than average accuracy
+Streaming	Hits all enemies in a stack/fleet.  Chain lightning?
+
+
+
+DIRECT FIRE
+Laser (Heavy) and 
+autofire Laser (autofire)
+Flechette Gun (shield pen)
+Mass Driver (shield pen)
+Ion Cannon (Heavy)
+Neutron Pellet Gun (shield pen)
+X-Ray Laser (Shield Pen, Burst)
+Microfusion Cannon (concussion)
+Entropy Cannon ***er... Maybe this is a special device?
+Ripper Beam (Burst)
+Blast Cannon (Heavy) ***Perhaps a rename for standard Blast Cannons?
+Shuriken Cannon (autofire)
+Gravitic Lance (concussion)
+Chimera Cannon (Heavy, autofire)
+Hellfire Cannon (Heavy) ***renamed a fusion beam
+Hard Beams (Shield Penetration) 
+Quantum Gate (Enveloping)
+MFM gun (streaming)
+Antimatter Cannon (concussion)
+Particle Beam (Shield pen)
+Tachyon Beam (Enveloping, Streaming)
+Gauss Autocannon (autofire, shield pen)
+Phaser (Heavy, ER)
+Pulse Phaser (autofire, ER) 
+Singularity Launcher (shield penetration, ER)
+PPC (ER)
+Plasma Cannon
+Disruptor (ER)
+Corona (Burst)
+Suppressor Ray (Heavy)
+Scattercannon (Streaming, autofire)
+Impeller Cannon (Shield Pen, Very ER)
+Polar Star (ER)
+Spur (Streaming, ER, Heavy)
+Arclight (Enveloping, very ER)
+Annihilator Ray (Burst, ER)
+Mauler Device (Cruel Brutal Damage)
+
+Sword of Fire ***this has Special Device or Beam Weapon written all over it?
+Wave-Motion Gun ***these are actually gravity blast cannons Nadesico style
+
+MISSILES: (original no. of MoO 1 missiles, for reference, was 11)
+Decoy ***looks like a real missile, mimics other missiles in volley.
+Nuclear ***Basic
+Stinger ***fusion
+Scatterpack V ***splits to five nuclear missiles?
+Hellhound **Firebreathing!
+Basilisk ***Improved fusion
+Archer ***first tier KKM
+Scatterpack VII ***splits to seven stinger missiles?
+Virus Missile	Computer virus, that is.  Screws their targetting ***moved to weapons
+Omega-V  *** advanced fusion
+Nova ***first tier antimatter
+Scatterpack X ***splits to ten archer missiles?
+Hercular KKM ***uses some super powerful drive to accelerate a mass to huge speed
+Quietus *** second tier Antimatter missile
+Zeon ***Gravitic
+
+
+TORPEDOES:
+Decoy
+Nuclear
+Tremor
+Plasma-Burst
+Disrupter
+Magna-Melta
+Earth Cracker
+Continent Remover
+Matter Conversion
+Starshatter
+Maelstrom
+
+
+NEAT DEVICES:
+STONK 			Stellar Teleportation Of Non-stable Krud
+Tractor beam
+Repulsor beam ***Ooops. I made Pressor beams into a weapon.		
+Intertial Stabilizer / Nullifier	
+Subspace Teleporter
+Battle Scanner (Generalized scanner techs...)
+Reserve Fuel Tanks	
+Stasis Field	
+Parasite Bays ***required to use Parasite weapons
+Autorepair / Adv. Damage Control
+Death Ray ***Special Device. Some superweapon similar to MoO1's death ray, but instead is one per ship, Macross-Disintegration-Beam style, and takes a special slot? Perhaps the Sword of Fire could go here? It's huge and prohibitively expensive and takes a weapon slot, too. In fact, if you wanted to make a Macross ship, you'd give it a subspace teleporter, parasite bays, and a Death Ray. And gajillions of particle beams.
+
+Gravwell Generator ***No retreat for you	
+Inertial Sap		Slows the enemy down
+Minelayer		Drops missiles as mines
+Cometdriver		Heheheh.  What do you think?
+Flare Inducer		Fwooosh! ***Pulser style? Or like, shoot a star and it makes a flare?
+Wormhole Cannon		Teleports enemy
+Technology Subverter	Some enemy weapons target their own fleets?
+Warp Eddy Inducer		Makes an area hard to pass through, breaks formation, damages stuff
+Cloaking Device		Now you see me...
+Defense Field		Like HW; fleet-wide defense shield, doesn't stack much
+Rock Camoflague		You look like a rock until you move ***Uhhhhh... O... kay...
+
+DRIVES
+Retrorockets --> Ion Drives (retrorockets aren't practical for long distance travel)
+Nuclear --> Plasma Drives (Ion Drives +, basically) are logical next step
+Sublight --> Sublight is such a cool name, but Nuclear is the next step after plasma
+Fusion --> Fusion Drives logically follow nuclear drives, oddly enough
+Impulse --> Traction Drives
+Ion --> Impeller Drives (improved gravity engine)
+Antimatter --> Sublight Drives (puts you near light speed, therefore sublight)
+Interphased --> Inertialess Drive? I dunno.
+Hyper
+
+SHIELDS
+
+ARMOR:
+Varethiel
+
+
+
+BATTLE
+Defenders place their fleets wherever they want, and they know where the attacker's coming from.
+
+
+PROBLEMS
+AOE weapons.  Fleets can overlap, y'see, and friendly fire might be involved.

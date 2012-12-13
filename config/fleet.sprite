@@ -1,0 +1,13 @@
+imgFile: fleet.png
+frameW : 10
+frameH : 10
+animDelay: 0
+anims:
+   0:
+      -
+         - 0
+         - 0 
+   1:
+      -
+         - 1
+         - 0

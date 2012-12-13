@@ -1,0 +1,159 @@
+So, how am I going to build this thing?
+
+GUI LAYOUT
+Main menu screen
+-Continue game
+-New game
+-Load game
+-Settings
+-Quit
+
+Race design screen
+
+Main galaxy screen
+-Main window
+-Sidebar
+-Topbar
+--System screen
+--Map screen
+--Tech screen
+--Ship design screen
+--Fleet build screen
+--Empire summary screen
+--Diplomacy screen
+--Spying screen?
+--News screen
+--Tactics screen?
+--Captain/Minister screen
+--Combat sim?
+--Game screen
+--Game date/summary
+
+The main galaxy screen has a sidebar on the right and a row of buttons on the
+top.  The sidebar displays context-sensitive information, depending on target:
+System, fleet, other?  The buttons include: Game, System detail, Map, Tech,
+Ship design, Fleet summary, Empire summary, Diplomacy, Spying, News, Heros,
+Next Turn.  It also has a display showing the year, and perhaps
+research/diplomacy minibars, gross and net empire production, etc.
+
+When a system is selected, the sidebar shows the following information:
+Name, picture, top 3 items of the build queue, factory count, population,
+population growth, population max, gross/net production, habitability, mineral
+richness, owner, defence station/installation/shield info.
+If you do not own the planet, you cannot see the build queue, factory count,
+pop. growth, production, or defence info.
+
+OR, double-click on a system to see all this, in a bigger screen?  Maybe not.
+
+When a fleet you own is selected, you see the name(?), ship/formation
+breakdown, overall power rating, range, speed, stealth level, and destination.
+If you do now own the fleet, this info is limited to ship count, speed, stealth
+level, and destination(?).
+
+Map screen
+The Map screen has a zoomable(?) map of the universe.  It has various
+overlays: Explored/unexplored planets, owned planets, inhabited planets, show
+pop, show production, show resources, show habitability, show fleet
+destinations, show names.
+It also has a system-finder.  Vital, that.
+
+Tech screen
+Fairly basic, MOO1 or Pax Imperia style.  Shows a list of techs researched and
+techs currently being researched, with summaries.  Slider-bars for
+distribution.  Total RP being generated.  Slider bar for deciding how much of
+the gross imperial production goes into research.  
+
+Ship design screen
+Ships have warp drives, combat drives, sensors, jammers, shields, armor,
+weapons and specials.  You can have ONE drive of each type, any amount of
+sensors, jammers, shields, or armor up to 70% of the ship's capacity, and ANY
+amount of weapons and specials.  Design screen is rather Pax Imperia-ish.
+Ship classes: destroyer, cruiser, battlecruiser, battleship, dreadnought,
+megalith.
+A ship has the following properties: Class, size (how much you can fit into
+it), combat speed/manuverability, warp speed, armor, shields, jamming, stealth
+(jamming is for combat, stealth is galactic), scanners, weapons, specials.
+
+Fleet build screen
+You can "rally" ships at a certain point, which makes a certain number of
+ships of the specified types without orders automatically go to a certain
+point.  There should be a map display of this.  You can click on stars/fleets
+to make them not be included in the rally, ie for garrisons.
+The basic fleet composition screen is two lists with traditional
+back-and-forth buttons between them.
+
+Empire summary screen
+Shows nice things like planet summaries, planet list, planet finder, gross
+imperial product, net imperial product, amounts devoted to research, ship
+maintainance, spying, counterspying, trade, population, and so on.
+
+Diplomacy screen
+MOO1-ish, easy.  Picture of each race, relations, basic statistics and info,
+comparisons.  Conversation is MOO1-ish.  Peace treaty, non-aggression pact,
+alliance.  Trade, tribute, trade tech, trade research.  Threaten.  Cultural
+exchange?  Costs, but improves relations over time.  Ally vs. enemy.
+Spying is included: counterespionage level, spy level towards each race,
+mission settings.  Missions include: Do nothing, steal tech, steal maps,
+destroy factories/installations, sabotage ships, steal ships, mission SNAFU
+ships, ecological/nuclear disaster, incite piracy, incite war with other
+races, assassinate leader, assassinate hero, incite rebellion...
+
+News screen
+Just shows what's happened this turn, a la MOO3/SE4.  Simple.
+
+Tactics/formations screen?
+Ummmm... nothing for now.  KISS.  Later formations may factor in tightness and
+agressiveness
+
+Captain/Minister screen
+MOO2-ish, simple.  Assign heros to fleets/planets, see hero status.
+
+Battle screen
+-Ship/fleet status
+-Battle scanners
+-Ship options -self-destruct, overdrive, retreat, whatever.
+-Tactics?  Auto-resolve, at least.
+-Formations
+-Weapon/device selection
+
+
+
+
+Ummmm.... so how the schmeck do I put this together?
+Well, the core of it is the Universe.  It has a bunch of properties, things
+like systems and ships, ideas like random events and races and techs, etc.
+So basically what you do is you change a few properties in this Universe, then generate a new turn.  And just keep doing that.
+So you have your Universe object, and you have your gui-display that is your window to it.  
+
+Universe:
+Races
+Systems
+Fleets/Ships
+Empires
+Events/conditions
+Wormholes
+Spies
+Diplomatic relations
+Ship designs
+Planet installations
+
+Race diplomacy, spies, relations, conversations.
+
+
+
+ART:
+Search for open-source/free art
+Look for artists.
+Try some things yourself too.
+
+
+CORPERATE:
+Think of a studio/company name and make a logo.  Any ideas?
+Icefox Productions is the obvious.
+Sunreacher?  Errant Angel?  Lost Angel?  Crazy Phoenix?  Exultant?  Razor's
+Edge Studios (since I'm on one at the moment)?  Songhua?
+Valient Productions!
+Or Valient Studios.  ^_^
+And using the wing-over-crossed-shield logo Paul made for Fire Emblem.  And
+don't forget the stars.  ^_^
+

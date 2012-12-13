@@ -1,0 +1,46 @@
+IMMEDIATE
+Fix sliders
+
+
+
+VISUAL
+Make better star sprites (animations might be tricky...) and display names of
+colonies.
+
+Fix various wxPython sizing and spacing issues...  buttons along bottom of
+screen, for instance.  Labels in the sidebar panels, too.  Some nice bevelled
+boxes around 'em and such would be nice too.
+look at sizertest.py #24
+
+Figure out how to get rid of the wxNotebook in MainScreen class, and just show
+and hide the panels.  Apply that to the fleet and star panels, and the colony
+panel in the star panel.
+wxChoicebook might be what you're looking for.  Check the wxWidgets docs, not
+wxPython.
+
+I should have a few different sprites for fleets on the starmap depending on
+how large a fleet is.
+
+Fleets and starnames and such should have different colors for diff. people...
+
+Fix colony display in general; come up with some nice final form.
+
+
+CONCEPTUAL
+How should fleets work?  Attached to carriers....
+
+Production queues, tech trees, diplomacy, empires, colonies, races, combat
+
+Tech draws related to each other?
+
+
+FUNCTIONAL
+Multiple fleets in orbit of a star!!!
+Fleet production!
+Make star mineral richness more of a bell-curve.
+I'm going to need a SE4-ish news-notification system, probably.
+
+Multiplayer!  Hmmmm....  You may just send in your Empire objects for turn
+gen?  That might work.
+
+Make better random-name list for star names
